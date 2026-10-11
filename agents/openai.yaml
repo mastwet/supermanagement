@@ -1,0 +1,14 @@
+interface:
+  display_name: supermanagement
+  short_description: Lean architecture, story plans, and delivery oversight
+  default_prompt: Use $supermanagement to design the architecture, decompose epics
+    and stories, map dependencies, and maintain executable plans with Superpowers.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
