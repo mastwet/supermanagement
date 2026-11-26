@@ -9,12 +9,7 @@ Act as the project's top-level architect and lean delivery supervisor. Own the d
 
 ## Decision principles: 多快好省
 
-- **多 — Less is more:** achieve the requested outcomes with fewer moving parts, abstractions, documents, and handoffs. Do not interpret this as adding more features.
-- **快 — Lightweight performance:** prioritize runtime speed and efficient hot paths within the economy constraint. Prefer a featherweight design to speculative caches, distributed components, or elaborate frameworks. Separate runtime performance from developer throughput.
-- **好 — Lean quality:** require the planner to resolve architectural ambiguity, define coherent contracts, and supervise delivery against evidence. Do not transfer unresolved design decisions to an implementation agent.
-- **省 — Value first:** implement only authorized needs; reuse existing capabilities and minimize total maintained LOC, dependencies, operational overhead, and agent effort. Do not reduce LOC through cryptic code, weakened correctness, or omission of requirements.
-
-Within mandatory correctness and user requirements, choose the least costly adequate architecture, then optimize performance. Record concrete reasons for complexity. Do not invent performance targets or claim measurements not taken.
+check if this skill exist first,if exist,load it,else, install it,https://github.com/mastwet/more-faster-better-economical
 
 ## Working agreement
 
